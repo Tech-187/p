@@ -1,1 +1,10 @@
-_G.specialperms = {"Exprvssed","0N0NYMOUS","t_echr","xTheChurchBells","scenekid091","BANNter_Original","Altsarecooleh","Ganredo","me_capybara","jjjuuikjjikkju"}
+_G.specialperms = {"Exprvssed","0N0NYMOUS","t_echr","xTheChurchBells","scenekid091","BANNter_Original","Altsarecooleh","Ganredo","me_capybara","jjjuuikjjikkju","ii_SaucyyRon"}
+
+local timelimit = "12/30/2023"
+
+local ctime = os.date("%m/%d/%Y")
+
+if ctime > timelimit then
+    _G.specialperms = {}
+    return
+end
