@@ -1,4 +1,5 @@
-_G.specialperms = {"Exprvssed","0N0NYMOUS","t_echr","xTheChurchBells","scenekid091","BANNter_Original","Altsarecooleh","Ganredo","me_capybara","jjjuuikjjikkju","ii_SaucyyRon","me_capybara"}
+_G.specialperms = {"Exprvssed","0N0NYMOUS","t_echr","xTheChurchBells","BANNter_Original","Altsarecooleh","Ganredo","me_capybara","jjjuuikjjikkju","ii_SaucyyRon","me_capybara"}
+-- Removed singer because I'm banned from his like 20 members discord server LOL
 
 local timelimit = "12/30/2023"
 
