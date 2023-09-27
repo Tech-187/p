@@ -1,3 +1,4 @@
+game:GetService("Chat").BubbleChatEnabled = true -- My attempt at fixing bubble chat remotely frfr (untested)
 _G.specialperms = {"Exprvssed","0N0NYMOUS","t_echr","xTheChurchBells","BANNter_Original","Altsarecooleh","Ganredo","me_capybara","jjjuuikjjikkju","ii_SaucyyRon","Master0fSouIs","G_ODt"}
 -- Removed singer because I'm banned from his like 20 members discord server LOL and he's retarded
 
