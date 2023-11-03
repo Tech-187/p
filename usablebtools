@@ -1,0 +1,7 @@
+-- The btools unfortunately select all parts in a folder rather than just one, if you run this with the :s command, it will fix that and it will let you build
+
+local b = game.Workspace
+local a = b.Tabby.Admin_House.Build_Stuff
+for c, d in ipairs(a:GetChildren()) do
+    d.Parent = b
+end
