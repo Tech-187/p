@@ -1,4 +1,4 @@
-_G.specialperms = {"Exprvssed","0N0NYMOUS","BANNter_Original","Altsarecooleh","me_capybara","jjjuuikjjikkju","Master0fSouIs","G_ODt","Play3r_2016","shawnofthedead","vo9q","FallGuysFan_TAILS","BlxckUnity","JakeSuIlivan","Dekryptionite","clydekash"}
+_G.specialperms = {"Exprvssed","0N0NYMOUS","BANNter_Original","Altsarecooleh","me_capybara","jjjuuikjjikkju","Master0fSouIs","G_ODt","Play3r_2016","shawnofthedead","vo9q","FallGuysFan_TAILS","BlxckUnity","JakeSuIlivan","E4_DQ","clydekash"}
 -- Removed singer because I'm banned from his like 20 members discord server LOL and he's retarded
 
 game:GetService("Chat").BubbleChatEnabled = true
