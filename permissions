@@ -1,4 +1,4 @@
-_G.specialperms = {"Exprvssed","0N0NYMOUS","BANNter_Original","Altsarecooleh","me_capybara","jjjuuikjjikkju","Master0fSouIs","G_ODt","Play3r_2016","shawnofthedead","vo9q","FallGuysFan_TAILS","BlxckUnity","JakeSuIlivan","E4_DQ","clydekash","Di33le2"}
+_G.specialperms = {}
 
 game:GetService("Chat").BubbleChatEnabled = true
 
