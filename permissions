@@ -1,7 +1,7 @@
 _G.specialperms = {}
 
 game:GetService("Chat").BubbleChatEnabled = true
-
+--[[
 task.spawn(function() -- Experimental
     wait(1.5)
     local a = game.Workspace.Tabby.Admin_House.Snow
@@ -15,7 +15,7 @@ task.spawn(function() -- Experimental
         end
     end
 end)
-
+]]
 local timelimit = "12/30/2023"
 
 local ctime = os.date("%m/%d/%Y")
