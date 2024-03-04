@@ -1,6 +1,6 @@
-_G.specialperms = {"Exprvssed","0N0NYMOUS","BANNter_Original","Altsarecooleh","me_capybara","jjjuuikjjikkju","Master0fSouIs","G_ODt","Play3r_2016","shawnofthedead","vo9q","FallGuysFan_TAILS","BlxckUnity","JakeSuIlivan","E4_DQ","clydekash","Di33le2"}
+_G.specialperms = {"Exprvssed","0N0NYMOUS","BANNter_Original","Altsarecooleh","me_capybara","jjjuuikjjikkju","Master0fSouIs","G_ODt","Play3r_2016","shawnofthedead","vo9q","FallGuysFan_TAILS","BlxckUnity","JakeSuIlivan","E4_DQ","clydekash","Di33le2","atprog","3cxos","Dekryptionite","Danna_Phantom"}
 
-local timelimit = "12/30/2023"
+local timelimit = "12/30/2024"
 
 local ctime = os.date("%m/%d/%Y")
 
