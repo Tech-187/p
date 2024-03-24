@@ -1,4 +1,4 @@
-_G.specialperms = {"Exprvssed","0N0NYMOUS","BANNter_Original","Altsarecooleh","me_capybara","jjjuuikjjikkju","Master0fSouIs","G_ODt","Play3r_2016","shawnofthedead","vo9q","FallGuysFan_TAILS","BlxckUnity","JakeSuIlivan","E4_DQ","clydekash","Di33le2","atprog","3cxos","Dekryptionite","Danna_Phantom"}
+_G.specialperms = {"Exprvssed","0N0NYMOUS","BANNter_Original","Altsarecooleh","me_capybara","jjjuuikjjikkju","Master0fSouIs","G_ODt","Play3r_2016","shawnofthedead","vo9q","FallGuysFan_TAILS","BlxckUnity","JakeSuIlivan","E4_DQ","clydekash","Di33le2","atprog","3cxos","Dekryptionite","Danna_Phantom","t_echr","t_echl"}
 
 task.spawn(function() -- Experimental
     wait(1.5)
