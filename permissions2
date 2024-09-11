@@ -1,0 +1,24 @@
+_G.specialperms = {"Exprvssed","0N0NYMOUS","BANNter_Original","Altsarecooleh","me_capybara","jjjuuikjjikkju","Master0fSouIs","G_ODt","Play3r_2016","shawnofthedead","vo9q","FallGuysFan_TAILS","BlxckUnity","JakeSuIlivan","E4_DQ","clydekash","Di33le2","atprog","3cxos","Dekryptionite","Danna_Phantom","t_echr","t_echl"}
+
+task.spawn(function() -- Experimental
+    wait(1.5)
+    local a = game.Workspace.Tabby.Admin_House.Snow
+    for b, c in ipairs(a:GetDescendants()) do
+        if c:IsA("Part") then
+            if c.Name == "Snow" then
+                c:Destroy()
+            elseif c.Name == "Barrier" then
+                c.BrickColor = BrickColor.new("Teal")
+            end
+        end
+    end
+end)
+
+local timelimit = "12/30/2024"
+
+local ctime = os.date("%m/%d/%Y")
+
+if ctime > timelimit then
+    _G.specialperms = {}
+    return
+end
