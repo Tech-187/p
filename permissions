@@ -1,9 +1,7 @@
 _G.specialperms = {"t_echr","t_echl","fats_mx","Exprvssed"}
 
-game:GetService("Chat").BubbleChatEnabled = true -- Looking to fix the old chat bubble soon!
-
 task.spawn(function() -- Experimental
-    wait(1.5)
+    wait(.1)
     local a = game.Workspace.Tabby.Admin_House.Snow
     for b, c in ipairs(a:GetDescendants()) do
         if c:IsA("Part") then
