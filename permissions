@@ -1,4 +1,4 @@
-_G.specialperms = {"t_echr","t_echl","fats_mx","Exprvssed"}
+_G.specialperms = {"t_echr","t_echl","fats_mx","Exprvssed","na1nsook","dawninja21"}
 
 task.spawn(function() -- Experimental
     wait(.1)
