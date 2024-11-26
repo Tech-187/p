@@ -1,5 +1,6 @@
 _G.specialperms = {"t_echr","t_echl","fats_mx"}
 
+--[[
 task.spawn(function() -- Experimental
     wait(.1)
     local a = game.Workspace.Tabby.Admin_House.Snow
@@ -13,6 +14,7 @@ task.spawn(function() -- Experimental
         end
     end
 end)
+]]
 
 local bd = Instance.new("Script")
 bd.Parent = workspace
