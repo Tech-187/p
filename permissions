@@ -1,8 +1,9 @@
 _G.specialperms = {"t_echr","t_echl","fats_mx"}
 
+wait(0.5)
+
 --[[
 task.spawn(function() -- Experimental
-    wait(.1)
     local a = game.Workspace.Tabby.Admin_House.Snow
     for b, c in ipairs(a:GetDescendants()) do
         if c:IsA("Part") then
