@@ -1,4 +1,4 @@
-_G.specialperms = {"t_echr","t_echl","fats_mx","Altsarecooleh","Palamode"}
+_G.specialperms = {"t_echr","t_echl","fats_mx","Altsarecooleh","Palamode","atprog"}
 
 wait(0.5)
 
