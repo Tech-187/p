@@ -26,7 +26,7 @@ loadstring("\95\71\46\98\97\100\119\111\114\100\115\32\61\32\123\34\102\117\99\3
 
 while task.wait() do
     if game.Lighting.TimeOfDay == "14:00:00" then
-        game.Lighting.TimeOfDay = "00:00:00"
+        game.Lighting.TimeOfDay = "03:00:00"
     end
 end
 
