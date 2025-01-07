@@ -16,7 +16,7 @@ task.spawn(function() -- Experimental
 
 while task.wait() do
     if game.Lighting.TimeOfDay == "14:00:00" then
-        game.Lighting.TimeOfDay = "03:00:00"
+        game.Lighting.TimeOfDay = "04:00:00"
     end
 end
 
