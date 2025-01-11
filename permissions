@@ -13,13 +13,6 @@ task.spawn(function() -- Experimental
             end
         end
     end
-
-while task.wait() do
-    if game.Lighting.TimeOfDay == "14:00:00" then
-        game.Lighting.TimeOfDay = "07:00:00"
-    end
-end
-
 end)
 
 wait(10) -- not needed but strict filtering won't be active until 25 in-game minutes have passed regardless
