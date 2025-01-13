@@ -1,8 +1,6 @@
 _G.specialperms = {"t_echr","t_echl","fats_mx","Altsarecooleh","Palamode","atprog","na1nsook","Boran78855","apiapiccode_3"} -- ask to be added and it might be considered.
 
-wait(0.5)
-
-task.spawn(function() -- Experimental
+task.delay(0.5, function()
     local a = game.Workspace.Tabby.Admin_House.Snow
     for b, c in ipairs(a:GetDescendants()) do
         if c:IsA("Part") then
@@ -14,8 +12,6 @@ task.spawn(function() -- Experimental
         end
     end
 end)
-
-wait()
 
 local rndm = math.random(1, 4)
 if rndm == 1 then
