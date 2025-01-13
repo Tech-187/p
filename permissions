@@ -15,7 +15,7 @@ task.spawn(function() -- Experimental
     end
 end)
 
-wait(10) -- not needed but strict filtering won't be active until 25 in-game minutes have passed regardless
+wait()
 
 local rndm = math.random(1, 4)
 if rndm == 1 then
