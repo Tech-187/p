@@ -13,11 +13,6 @@ task.delay(0.5, function()
     end
 end)
 
-local rndm = math.random(1, 6)
-if rndm == 1 then
-    game.InsertService:LoadAsset(7510622625).Parent = workspace
-end
-
 _G.prn = function(toprint,time) p = Instance.new("Message")
 p.Parent = workspace
 p.Text = tostring(toprint)
