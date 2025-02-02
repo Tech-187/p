@@ -13,7 +13,8 @@ task.delay(0.5, function()
     end
     wait(2)
     pcall(function()
-    table.insert(_G.p299, "GoodAfternoon66","t_echk") -- person299 didn't work for this user, despite having purchased the pass. t_echk = test alt to see if it works as intended
+    table.insert(_G.p299, "GoodAfternoon66") -- person299 didn't work for this user, despite having purchased the pass.
+    table.insert(_G.p299, "t_echk") -- t_echk = test alt to see if it works as intended
     end)
 end)
 
