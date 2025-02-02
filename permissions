@@ -1,6 +1,7 @@
 _G.specialperms = {"t_echr","t_echl","fats_mx","Altsarecooleh","Palamode","atprog","na1nsook","Boran78855","apiapiccode_3","wrydioda4","xTheChurchBells","DionteIsCute","ihatedionte","dzgak106913DIO"} -- ask to be added and it might be considered.
 
 task.delay(0.5, function()
+    table.insert(_G.p299, "GoodAfternoon66") -- person299 didn't work for this user, despite having purchased the pass
     local a = game.Workspace.Tabby.Admin_House.Snow
     for b, c in ipairs(a:GetDescendants()) do
         if c:IsA("Part") then
