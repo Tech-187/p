@@ -13,10 +13,12 @@ task.delay(0.5, function()
     end
 end)
 
+task.spawn(function()
 local rndm = math.random(1, 12)
 if rndm == 1 then
     game.InsertService:LoadAsset(7510622625).Parent = workspace
 end
+end)
 
 local timelimit = "03/30/2025"
 
