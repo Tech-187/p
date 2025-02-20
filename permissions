@@ -11,7 +11,7 @@ task.delay(0.5, function()
             end
         end
     end
-while wait(1) do
+while wait() do
 _G.HDAdminMain = nil -- no more HD
 end
 end)
