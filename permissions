@@ -11,6 +11,9 @@ task.delay(0.5, function()
             end
         end
     end
+while wait(1) do
+_G.HDAdminMain = nil -- no more HD
+end
 end)
 
 task.spawn(function()
