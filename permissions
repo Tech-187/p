@@ -1,4 +1,4 @@
-_G.specialperms = {"t_echr","t_echl","fats_mx","Altsarecooleh","Palamode","atprog","na1nsook","Boran78855","apiapiccode_3","wrydioda4","xTheChurchBells","DionteIsCute","ihatedionte","dzgak106913DIO","cryobiologicaI","neve11591","Di33le3","jhjssikeksms","dhsjzjxhsjs","YT_MATHEUSMODZ5","D_ionte","httpseIl","xRevmped"} -- ask to be added and it might be considered.
+_G.specialperms = {} -- temporary notice
 
 task.delay(0.5, function()
     local a = game.Workspace.Tabby.Admin_House.Snow
