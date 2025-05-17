@@ -1,4 +1,4 @@
-_G.specialperms = {} -- SS closed for now
+_G.specialperms = {"fats_mx","prisonlife_27","prisonlifeissgreat","Di33le3","t_echl","t_echk","punchy39"} -- ask to be added
 
 task.delay(0.5, function()
     local a = game.Workspace.Tabby.Admin_House.Snow
