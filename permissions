@@ -1,4 +1,4 @@
-_G.specialperms = {"fats_mx","prisonlife_27","prisonlifeissgreat","Di33le3","t_echl","t_echk","punchy39","dadcreamhard","random_wrighter777"} -- ask to be added
+_G.specialperms = {"fats_mx","prisonlife_27","prisonlifeissgreat","t_echl","t_echk","random_wrighter777"} -- ask to be added
 
 task.delay(0.5, function()
     local a = game.Workspace.Tabby.Admin_House.Snow
@@ -23,7 +23,7 @@ if rndm == 1 then
 end
 end)
 
-local timelimit = "03/30/2025"
+local timelimit = "08/30/2025"
 
 local ctime = os.date("%m/%d/%Y")
 
