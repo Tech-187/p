@@ -12,6 +12,7 @@ _G.allowunpunishwelding = false
             end
         end
     end
+table.insert(_G.p299, "Dawninja21alt") -- reserved slot, user reported issue with the gamepass not working for them.
 while wait() do
 _G.HDAdminMain = nil -- no more HD
 end
