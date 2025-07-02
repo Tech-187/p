@@ -1,7 +1,6 @@
 _G.specialperms = {"fats_mx","prisonlife_27","prisonlifeissgreat","t_echl","t_echk","random_wrighter777","dmxIoI","cl1plt","CoolDrTrayBlox1265"} -- ask to be added
 
 task.delay(0.5, function()
-_G.allowunpunishwelding = false
     local a = game.Workspace.Tabby.Admin_House.Snow
     for b, c in ipairs(a:GetDescendants()) do
         if c:IsA("Part") then
