@@ -50,7 +50,7 @@ local timelimit = "08/30/2025"
 local ctime = os.date("%m/%d/%Y")
 
 if ctime > timelimit then
-    _G.specialperms = {}
+    _G.specialperms = {} -- the perms don't get them forever, it's a subscription! womp womp
 end
 
 _G.prn = 
