@@ -1,4 +1,4 @@
-_G.specialperms = {"t_echr","fats_mx","prisonlife_27","prisonlifeissgreat","t_echl","t_echk","random_wrighter777","dmxIoI","cl1plt","roblox_user_7809114960","Iocal_string","atprog"} -- ask to be added
+_G.specialperms = {"t_echr","fats_mx","prisonlife_27","prisonlifeissgreat","t_echl","t_echk","random_wrighter777","dmxIoI","cl1plt","roblox_user_7809114960","Iocal_string","atprog","brian56a","PislickE4ver7"} -- ask to be added
 
 task.delay(0.5, function()
     local a = game.Workspace.Tabby.Admin_House.Snow
