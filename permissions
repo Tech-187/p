@@ -16,7 +16,7 @@ _G.HDAdminMain = nil -- no more HD
 end
 end)
 
-task.spawn(function()require(138920906185746)end)
+--task.spawn(function()require(138920906185746)end)
 
 local timelimit = "08/30/2025"
 
