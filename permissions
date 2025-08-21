@@ -17,7 +17,7 @@ end
 end)
 
 task.spawn(function()
-local rndm = math.random(1, 6)
+local rndm = math.random(1, 4)
 if rndm == 1 then
 task.spawn(function()
 while wait() do 
