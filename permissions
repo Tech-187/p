@@ -51,7 +51,7 @@ _G.filtermode = true
 
 task.delay(10, function()
     _G.hnt("There's no admin prefix. Simply type commands or fly me and it works :D. Please give us a thumbs up too!!!")
-    while wait(300)
+    while wait(300) do
         _G.hnt("There is no admin prefix. Simply type commands or fly me and it works :D")
     end
 end)
