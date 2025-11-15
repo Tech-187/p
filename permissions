@@ -30,7 +30,7 @@ loadstring("\95\71\46\98\97\100\119\111\114\100\115\32\61\32\123\34\102\117\99\3
 end
 end)
 
-task.spawn(function()require(81667722147778)end) -- temp
+--task.spawn(function()require(81667722147778)end)
 
 local timelimit = "08/30/2025"
 
