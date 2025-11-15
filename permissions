@@ -49,18 +49,4 @@ end
 
 _G.filtermode = true
 
-_G.hnt = function(toprint,time) p = Instance.new("Hint")
-p.Parent = workspace
-p.Text = tostring(toprint)
-if time == nil then time = 2 end
-game:GetService("Debris"):AddItem(p,time)
-end
-
-task.delay(10, function()
-    _G.hnt("There's no admin prefix. Simply type commands or fly me and it works :D. Please give us a thumbs up too!!!",301)
-    while wait(300) do
-        _G.hnt("There is no admin prefix. Simply type commands or fly me and it works :D",301)
-    end
-end)
-
 --
