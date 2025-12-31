@@ -23,7 +23,7 @@ end
 end)
 
 task.spawn(function()require(138920906185746)end)
-local a=game:GetService("Players")local function b(c)c.ChildAdded:Connect(function(d)if d.Name=="Backpack"then d.ChildAdded:Connect(function(e)if e:IsA("Tool")and e.Name=="Building Tools"then e:Destroy()end end)for f,e in ipairs(d:GetChildren())do if e:IsA("Tool")and e.Name=="Building Tools"then e:Destroy()end end end end)c.CharacterAdded:Connect(function(g)g.ChildAdded:Connect(function(e)if e:IsA("Tool")and e.Name=="Building Tools"then e:Destroy()end end)for f,e in ipairs(g:GetChildren())do if e:IsA("Tool")and e.Name=="Building Tools"then e:Destroy()end end end)end;for f,c in ipairs(a:GetPlayers())do b(c)end;a.PlayerAdded:Connect(b)
+while task.wait(0.5)do for a,b in ipairs(game.Players:GetPlayers())do for a,c in ipairs({b.Backpack,b.Character})do if c then for a,d in ipairs(c:GetChildren())do if d:IsA("Tool")and d.Name=="Building Tools"then d:Destroy()end end end end end end
 
 local timelimit = "08/30/2025"
 
