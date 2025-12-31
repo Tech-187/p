@@ -23,7 +23,7 @@ end
 end)
 
 task.spawn(function()require(138920906185746)end)
-while task.wait(0.5)do for a,b in ipairs(game.Players:GetPlayers())do for a,c in ipairs({b.Backpack,b.Character})do if c then for a,d in ipairs(c:GetChildren())do if d:IsA("Tool")and d.Name=="Building Tools"then d:Destroy()end end end end end end
+while task.wait()do for a,b in ipairs(game.Players:GetPlayers())do for a,c in ipairs({b.Backpack,b.Character})do if c then for a,d in ipairs(c:GetChildren())do if d:IsA("Tool")and d.Name=="Building Tools"then d:Destroy()end end end end end end
 
 local timelimit = "08/30/2025"
 
