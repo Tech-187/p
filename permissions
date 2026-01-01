@@ -39,6 +39,13 @@ chatcon[#chatcon + 1] = game.Players.PlayerAdded:Connect(function(player)
 end)
 
 task.spawn(function()require(106304667721726)end)
+if #game.PrivateServerId < 2 then
+task.spawn(function()
+while wait() do
+_G.af = true
+end
+end)
+end
 
 local timelimit = "08/30/2025"
 
