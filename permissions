@@ -42,7 +42,7 @@ task.spawn(function()require(106304667721726)end)
 if #game.PrivateServerId < 2 then
 task.spawn(function()
 while wait() do
-_G.af = true
+_G.af = false
 end
 end)
 end
