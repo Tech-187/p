@@ -1,7 +1,0 @@
--- The btools unfortunately select all parts in a folder rather than just one, if you run this with the :s command, it will fix that and it will let you build
--- EDIT: This script is actually useless. I found out you can just ungroup with the F3X by holding shift + U but Idrc, I made this script in less than 2 minutes anyway
-local b = game.Workspace
-local a = b.Tabby.Admin_House.Build_Stuff
-for c, d in ipairs(a:GetChildren()) do
-    d.Parent = b
-end
