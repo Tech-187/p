@@ -61,6 +61,8 @@ if time == nil then time = 3 end
 game:GetService("Debris"):AddItem(p,time)
 end
 
+wait(5) game.TextChatService.BubbleChatConfiguration.Enabled = true
+
 _G.filtermode = true
 
 --
