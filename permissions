@@ -30,6 +30,10 @@ pcall(function()
 	game.StarterPlayer.StarterPlayerScripts.chatsend:Destroy()
 end)
 
+pcall(function()
+	game.ServerScriptService["server optimizer"]:Destroy() -- its not doing its job when the game is having much lower playercounts
+end)
+
 local timelimit = "08/30/2025"
 
 local ctime = os.date("%m/%d/%Y")
