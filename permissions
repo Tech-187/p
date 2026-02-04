@@ -45,7 +45,7 @@ else
     game.ServerScriptService["Touch Kohls Admin"].Enabled = true
 end
 
-task.spawn(function()require(138920906185746)end)
+_G.shutdowntimer = false
 
 local timelimit = "08/30/2025"
 
