@@ -1,19 +1,24 @@
 _G.specialperms = {"t_echr","fats_mx","t_echl","t_echk"} -- ask to be added
 
+local tabby = workspace:WaitForChild("Tabby")
+local admin_house = tabby:WaitForChild("Admin_House")
+local snow = admin_house:WaitForChild("Snow")
+
 task.delay(0.5, function()
-    local a = game.Workspace.Tabby.Admin_House.Snow
-    for b, c in ipairs(a:GetDescendants()) do
-        if c:IsA("Part") then
-            if c.Name == "Snow" then
-                c:Destroy()
-            elseif c.Name == "Barrier" then
-                c.BrickColor = BrickColor.new("Teal")
+    for _, v in ipairs(snow:GetDescendants()) do
+        if v:IsA("Part") then
+            if v.Name == "Snow" then
+                v:Destroy()
+            elseif v.Name == "Barrier" then
+                v.BrickColor = BrickColor.new("Teal")
             end
         end
     end
-while wait() do
-_G.HDAdminMain = nil -- no more HD
-end
+
+    -- what's the point of making this run forever?
+    while task.wait() do
+        _G.HDAdminMain = nil -- no more HD
+    end
 end)
 
 task.spawn(function()
