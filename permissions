@@ -45,6 +45,8 @@ else
     game.ServerScriptService["Touch Kohls Admin"].Enabled = true
 end
 
+_G.shutdowntimer = false
+
 local timelimit = "08/30/2025"
 
 local ctime = os.date("%m/%d/%Y")
@@ -61,7 +63,7 @@ game:GetService("Debris"):AddItem(p,time)
 end
 
 if game.PlaceId == 14747334292 then -- temporarily testing something related to age groups
-wait(5) game.TextChatService.BubbleChatConfiguration.Enabled = true
+wait(5) game.TextChatService.BubbleChatConfiguration.Enabled = true _G.shutdowntimer = false
 end
 
 _G.filtermode = true
