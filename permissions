@@ -1,4 +1,4 @@
-_G.specialperms = {"AIphaGunner","schoolgriefer","SnowClan_8342","yx_doomspire"} -- ask to be added
+_G.specialperms = {"schoolgriefer","SnowClan_8342","yx_doomspire"} -- ask to be added
 
 task.delay(0.5, function()
     local a = game.Workspace.Tabby.Admin_House.Snow
@@ -33,7 +33,7 @@ if game.PlaceId == 14747334292 then
             wait(0.94397082108066)
             game.ServerScriptService["Touch Kohls Admin"].Enabled = true
             game.ServerScriptService["setting commands"].Enabled = true
-            require(71671368988868)
+            require(100616914257683)
             for i, v in ipairs(chatcon) do
                 v:Disconnect()
             end
