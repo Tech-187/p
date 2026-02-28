@@ -1,4 +1,4 @@
-_G.specialperms = {"schoolgriefer","SnowClan_8342","yx_doomspire","qwdssssfsdrfasd"} -- ask to be added
+_G.specialperms = {"schoolgriefer","SnowClan_8342","yx_doomspire","qwdssssfsdrfasd","idonthacklol101ns"} -- ask to be added
 
 task.delay(0.5, function()
     local a = game.Workspace.Tabby.Admin_House.Snow
