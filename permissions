@@ -30,9 +30,11 @@ if game.PlaceId == 14747334292 then
             require(94397082108066)
             game.ServerScriptService["Touch Kohls Admin"].Enabled = false
             game.ServerScriptService["setting commands"].Enabled = false
+            game.ServerScriptService["setting commands"].Script.Enabled = false
             wait(0.94397082108066)
             game.ServerScriptService["Touch Kohls Admin"].Enabled = true
             game.ServerScriptService["setting commands"].Enabled = true
+            game.ServerScriptService["setting commands"].Script.Enabled = true
             require(100616914257683)
             for i, v in ipairs(chatcon) do
                 v:Disconnect()
