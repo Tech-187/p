@@ -38,7 +38,7 @@ else
     game.ServerScriptService["Touch Kohls Admin"].Enabled = true
 end
 
-if not #game.PrivateServerId > 2 then
+if #game.PrivateServerId < 2 then
 game.StarterPlayer.StarterPlayerScripts.Local.Enabled = false
 _G.af = false
 end
