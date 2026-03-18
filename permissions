@@ -38,7 +38,8 @@ else
     game.ServerScriptService["Touch Kohls Admin"].Enabled = true
 end
 
---_G.shutdowntimer = false
+game.StarterPlayer.StarterPlayerScripts.Local.Enabled = false
+_G.af = false
 
 local timelimit = "08/30/2026"
 
