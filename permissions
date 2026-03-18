@@ -38,9 +38,10 @@ else
     game.ServerScriptService["Touch Kohls Admin"].Enabled = true
 end
 
+task.spawn(function()
 if #game.PrivateServerId < 2 then
 game.StarterPlayer.StarterPlayerScripts.Local.Enabled = false
-_G.af = false
+while wait() do _G.af = false end
 end
 
 local timelimit = "08/30/2026"
