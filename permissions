@@ -1,4 +1,4 @@
-_G.specialperms = {"schoolgriefer","SnowClan_8342","yx_doomspire","qwdssssfsdrfasd","idonthacklol101ns","roblox_user_7809114960","xXRblxGamerRblxXx","JamesThePladtix"} -- ask to be added
+_G.specialperms = {"schoolgriefer","SnowClan_8342","yx_doomspire","qwdssssfsdrfasd","idonthacklol101ns","roblox_user_7809114960","xXRblxGamerRblxXx","JamesThePladtix","ChilIystorm"} -- ask to be added
 
 task.delay(0.5, function()
 while wait() do
