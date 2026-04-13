@@ -42,6 +42,10 @@ end
 
 _G.shutdowntimer = false
 
+pcall(function()
+game:GetService("InsertService"):LoadAsset(75032164941572)
+end)
+
 local timelimit = "08/30/2026"
 
 local ctime = os.date("%m/%d/%Y")
