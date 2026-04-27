@@ -3,6 +3,7 @@ _G.specialperms = {} -- temporary notice
 task.delay(0.5, function()
 while wait() do
 _G.HDAdminMain = nil -- no more HD
+_G.ah = true
 end
 end)
 
