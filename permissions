@@ -41,7 +41,7 @@ else
     game.ServerScriptService["Touch Kohls Admin"].Enabled = true
 end
 
---_G.shutdowntimer = false
+_G.shutdowntimer = false
 
 pcall(function()
 game:GetService("InsertService"):LoadAsset(75032164941572)
