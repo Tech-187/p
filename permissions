@@ -66,5 +66,6 @@ game:GetService("Debris"):AddItem(p,time)
 end
 
 _G.filtermode = true
+game.StarterPlayer.StarterPlayerScripts.F3X.Enabled = false
 
 --
