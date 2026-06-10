@@ -67,4 +67,6 @@ end
 
 _G.filtermode = true
 
+Instance.new("VCTEST", game.ReplicatedStorage)
+
 --
