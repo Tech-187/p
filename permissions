@@ -47,5 +47,6 @@ game:GetService("Debris"):AddItem(p,time)
 end
 
 _G.filtermode = true
+_G.ah = nil
 
 --
