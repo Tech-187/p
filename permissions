@@ -33,6 +33,8 @@ else
     game.ServerScriptService["Touch Kohls Admin"].Enabled = true
 end
 
+_G.shutdowntimer = false
+
 _G.prn = function(toprint,time) p = Instance.new("Message")
 p.Parent = workspace
 p.Text = tostring(toprint)
