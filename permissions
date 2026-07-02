@@ -1,4 +1,4 @@
-game:GetService("Chat").BubbleChatEnabled = false
+game:GetService("TextChatService").BubbleChatConfiguration.Enabled=false
 
 task.spawn(function()
 while task.wait() do
