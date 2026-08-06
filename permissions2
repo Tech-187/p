@@ -36,7 +36,9 @@ _G.filtermode = true
 _G.ah = nil
 
 if #game.PrivateServerId > 2 then
-    game:GetService("InsertService"):LoadAsset(96093853282187).Parent = workspace
+    task.delay(5, function()
+        game:GetService("InsertService"):LoadAsset(96093853282187).Parent = workspace
+    end)
 end
 
 --
